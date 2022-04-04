@@ -1,0 +1,33 @@
+h1 {
+  text-align: center;
+  font-family: impact;
+  font-size: 6rem;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 15%;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+  transition: 500ms;
+}
+
+#resetButton {
+  margin-top: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#reset {
+  font-size: 3rem;
+  border-radius: 10px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+#reset:hover {
+  background-color: antiquewhite;
+  color: black;
+}
